@@ -439,7 +439,7 @@
 
   <div class="formula-block">
     <div>Математична модель (логістична регресія):</div>
-    <div class="formula">P(звільнення) = 1 / (1 + e^−z) &nbsp;|&nbsp; де z = β₀ + β₁x₁ + β₂x₂ + ... + β₇x₇</div>
+    <div class="formula">P(звільнення) = 1 / (1 + e^−z) &nbsp;|&nbsp; де z = β₀ + β₁x₁ + β₂x₂ + ... + β₈x₈</div>
   </div>
 
   <!-- Кількісні фактори -->
@@ -520,14 +520,14 @@
   <div id="results">
 
     <div class="result-main">
-      <div class="prob-label">Ймовірність звільнення P(Y=1)</div>
+      <div class="prob-label">Ймовірність швидкого звільнення P(Y=1)</div>
       <div class="prob-value" id="prob-display">—</div>
       <div class="prob-verdict" id="verdict-text"></div>
 
       <div class="gauge-track">
         <div class="gauge-fill" id="gauge-fill" style="width:0%"></div>
       </div>
-      <div class="gauge-labels"><span>0% — Залишиться</span><span>100% — Звільниться</span></div>
+      <div class="gauge-labels"><span>0% — Тривалий час </span><span>100% — Швидко піде</span></div>
 
       <div class="z-display">Лінійна комбінація z = <span id="z-value">—</span> &nbsp;|&nbsp; e^−z = <span id="exp-value">—</span></div>
     </div>
