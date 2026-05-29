@@ -51,7 +51,7 @@
   }
   .tag {
     font-family: var(--font-b);
-    font-size: 12px;
+    font-size: 21px;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--muted);
@@ -71,32 +71,15 @@
   }
   h1 span { font-style: italic; }
   .subtitle {
-    font-size: 18px;
+    font-size: 31px;
     font-style: italic;
     color: var(--muted);
     animation: slideUp 0.65s ease;
   }
-  .formula-block {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-left: 4px solid var(--navy);
-    padding: 18px 28px;
-    margin-bottom: 48px;
-    font-size: 15px;
-    color: var(--muted);
-    animation: fadeIn 0.8s ease;
-  }
-  .formula-block .formula {
-    color: var(--navy);
-    font-size: 17px;
-    font-style: italic;
-    margin-top: 6px;
-    letter-spacing: 0.03em;
-  }
   .section { margin-bottom: 40px; }
   .section-label {
     font-family: var(--font-d);
-    font-size: 15px;
+    font-size: 23px;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--navy);
@@ -123,19 +106,13 @@
     box-shadow: 0 3px 16px rgba(28,42,74,0.08);
   }
   .field-label {
-    font-size: 16px;
+    font-size: 23px;
     color: var(--text);
     margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-  }
-  .field-label .beta {
-    font-style: italic;
-    font-size: 13px;
-    color: var(--navy-light);
-    flex-shrink: 0;
   }
   .field input[type="number"],
   .field select {
@@ -144,7 +121,7 @@
     border: 1px solid var(--border);
     color: var(--text);
     font-family: var(--font-b);
-    font-size: 18px;
+    font-size: 21px;
     padding: 10px 14px;
     outline: none;
     transition: border-color 0.2s;
@@ -162,7 +139,7 @@
     border: 1px solid var(--border);
     color: var(--muted);
     font-family: var(--font-b);
-    font-size: 17px;
+    font-size: 19px;
     cursor: pointer;
     transition: all 0.15s;
     text-align: center;
@@ -182,7 +159,7 @@
     color: var(--bg);
     border: none;
     font-family: var(--font-d);
-    font-size: 20px;
+    font-size: 33px;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -212,7 +189,7 @@
     background: var(--navy);
   }
   .prob-label {
-    font-size: 14px;
+    font-size: 23px;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--muted);
@@ -220,7 +197,7 @@
   }
   .prob-value {
     font-family: var(--font-d);
-    font-size: 110px;
+    font-size: 100px;
     font-weight: 500;
     line-height: 1;
     margin-bottom: 12px;
@@ -228,7 +205,7 @@
     color: var(--navy);
   }
   .prob-verdict {
-    font-size: 20px;
+    font-size: 26px;
     font-style: italic;
     margin-bottom: 28px;
     letter-spacing: 0.02em;
@@ -237,7 +214,7 @@
   .gauge-fill { height: 100%; transition: width 0.9s cubic-bezier(0.23, 1, 0.32, 1); }
   .gauge-labels {
     display: flex; justify-content: space-between;
-    font-size: 13px; color: var(--muted); font-style: italic;
+    font-size: 18px; color: var(--muted); font-style: italic;
   }
   .z-display {
     margin-top: 20px; font-size: 15px;
@@ -246,7 +223,7 @@
   .z-display span { color: var(--navy); font-style: normal; font-weight: 500; }
   .breakdown-title {
     font-family: var(--font-d);
-    font-size: 15px; letter-spacing: 4px;
+    font-size: 23px; letter-spacing: 4px;
     text-transform: uppercase; color: var(--navy);
     font-weight: 500; margin-bottom: 18px;
     display: flex; align-items: center; gap: 16px;
@@ -265,8 +242,8 @@
     transition: border-color 0.2s;
   }
   .factor-row:hover { border-color: var(--border-dark); }
-  .factor-name { font-size: 20px; color: var(--text); margin-bottom: 5px; font-family: var(--font-b); }
-  .factor-desc { font-size: 15px; color: var(--muted); font-style: italic; }
+  .factor-name { font-size: 27px; color: var(--text); margin-bottom: 5px; font-family: var(--font-b); }
+  .factor-desc { font-size: 21px; color: var(--muted); font-style: italic; }
   .factor-impact {
     font-family: var(--font-d);
     font-size: 32px; font-weight: 500;
@@ -281,7 +258,7 @@
   .bar-negative { background: var(--safe); }
   .legend {
     display: flex; gap: 28px; margin-top: 22px;
-    font-size: 15px; color: var(--muted);
+    font-size: 20px; color: var(--muted);
     justify-content: center; font-style: italic;
   }
   .legend-item { display: flex; align-items: center; gap: 10px; }
@@ -298,15 +275,10 @@
 <div class="container">
 
   <header>
-    <span class="tag">Економічна кібернетика · Богдан Маргарита · КНУ імені Тараса Шевченка</span>
+    <span class="tag">Економічна кібернетика | Богдан Маргарита | КНУ імені Тараса Шевченка</span>
     <h1>Модель плинності <span>кадрів</span></h1>
     <p class="subtitle">Бінарний вибір методом логістичної регресії</p>
   </header>
-
-  <div class="formula-block">
-    <div>Математична модель (МНП на датасеті IBM HR Analytics, n = 1470):</div>
-    <div class="formula">P(звільнення) = 1 / (1 + e<sup>−z</sup>) &nbsp;·&nbsp; z = 0.393 + β₁x₁ + … + β₈x₈ &nbsp;·&nbsp; Точність: 85,2%</div>
-  </div>
 
   <!-- КІЛЬКІСНІ ФАКТОРИ -->
   <div class="section">
@@ -314,32 +286,32 @@
     <div class="fields-grid">
 
       <div class="field">
-        <div class="field-label">Вік (років) <span class="beta">U-крива, мін. ~38 р.</span></div>
-        <input type="number" id="age" min="18" max="65" value="28">
+        <div class="field-label">Вік (років) </div>
+        <input type="number" id="age" min="18" max="60" value="28">
       </div>
 
       <div class="field">
-        <div class="field-label">Стаж у компанії (років) <span class="beta">β₂ = −0.0248</span></div>
+        <div class="field-label">Стаж у компанії (років) </div>
         <input type="number" id="tenure" min="0" max="40" step="0.5" value="2">
       </div>
 
       <div class="field">
-        <div class="field-label">Кількість місць роботи <span class="beta">β₃ = +0.1151</span></div>
+        <div class="field-label">Кількість місць роботи </div>
         <input type="number" id="numCompanies" min="0" max="20" value="3">
       </div>
 
       <div class="field">
-        <div class="field-label">Відстань до роботи (км) <span class="beta">β₄ = +0.0310</span></div>
+        <div class="field-label">Відстань до роботи (км) </div>
         <input type="number" id="distance" min="0" max="100" value="10">
       </div>
 
       <div class="field">
-        <div class="field-label">Місячний дохід ($) <span class="beta">β₅ = −0.0001</span></div>
+        <div class="field-label">Місячний дохід ($) </div>
         <input type="number" id="income" min="1000" max="25000" step="100" value="4000">
       </div>
 
       <div class="field">
-        <div class="field-label">Задоволеність роботою (1–4) <span class="beta">β₆ = −0.2920</span></div>
+        <div class="field-label">Задоволеність роботою (1–4) </div>
         <select id="jobSatisfaction">
           <option value="1">1 — Незадоволений</option>
           <option value="2" selected>2 — Нейтральний</option>
@@ -357,7 +329,7 @@
     <div class="fields-grid">
 
       <div class="field">
-        <div class="field-label">Сімейний стан <span class="beta">β₇ = −0.4423</span></div>
+        <div class="field-label">Сімейний стан </div>
         <div class="toggle-group">
           <button class="toggle-btn active-no" onclick="setToggle('marital','yes',this)">Одружений/а</button>
           <button class="toggle-btn"           onclick="setToggle('marital','no',this)">Не одружений/а</button>
@@ -366,7 +338,7 @@
       </div>
 
       <div class="field">
-        <div class="field-label">Понаднормова робота <span class="beta">β₈ = +1.4588</span></div>
+        <div class="field-label">Понаднормова робота </div>
         <div class="toggle-group">
           <button class="toggle-btn"           onclick="setToggle('overTime','yes',this)">Так</button>
           <button class="toggle-btn active-no" onclick="setToggle('overTime','no',this)">Ні</button>
@@ -381,7 +353,7 @@
 
   <div id="results">
     <div class="result-main">
-      <div class="prob-label">Ймовірність звільнення P(Y = 1)</div>
+      <div class="prob-label">Ймовірність швидкого звільнення </div>
       <div class="prob-value" id="prob-display">—</div>
       <div class="prob-verdict" id="verdict-text"></div>
       <div class="gauge-track">
@@ -391,8 +363,8 @@
         <span>0% — стабільний</span>
         <span>100% — високий ризик</span>
       </div>
-      <div class="z-display">
-        z = <span id="z-value">—</span> &nbsp;·&nbsp; e<sup>−z</sup> = <span id="exp-value">—</span>
+      <div class="z-display" style="display: none;">
+        z = <span id="z-value">—</span> | e<sup>−z</sup> = <span id="exp-value">—</span>
       </div>
     </div>
 
@@ -410,7 +382,7 @@
 // Коефіцієнти логіт-моделі — отримала методом МНП у Python (scikit-learn) на датасеті IBM HR Analytics
 const BETAS = {
   intercept:        0.3930,  // β₀ — константа
-  age:              0.0035,  // β₁ — вік (квадратичний, бо U-крива)
+  age:             -0.0453,  // β₁ — вік (лінійний: старший = нижчий ризик)
   tenure:          -0.0248,  // β₂ — стаж у компанії
   numCompanies:     0.1151,  // β₃ — кількість місць роботи
   distance:         0.0310,  // β₄ — відстань до роботи
@@ -423,8 +395,7 @@ const BETAS = {
 // Метадані кожного фактора: як зчитати значення з форми і що показати користувачу
 const FACTOR_META = [
   { key:"intercept",       label:"Базовий рівень (β₀)",         getVal:()=>1,                                                            getDesc:()=>"Константа моделі" },
-  // Для віку рахую квадратичне відхилення від 38 — це дає U-подібну криву (і молоді, і літні = вищий ризик)
-  { key:"age",             label:"Вік",                          getVal:()=>Math.pow(+document.getElementById("age").value-38,2),        getDesc:()=>{ const a=+document.getElementById("age").value; if(a<27)return a+"р. — дуже молодий"; if(a<35)return a+"р. — молодий"; if(a<=42)return a+"р. — найстабільніший вік"; if(a<=53)return a+"р. — досвідчений"; return a+"р. — передпенсійний"; } },
+  { key:"age",             label:"Вік",                          getVal:()=>+document.getElementById("age").value,        getDesc:()=>{ const a=+document.getElementById("age").value; if(a<25)return a+"р. — дуже молодий спеціаліст"; if(a<32)return a+"р. — молодий спеціаліст"; if(a<45)return a+"р. — досвідчений"; return a+"р. — зрілий спеціаліст"; } },
   { key:"tenure",          label:"Стаж у компанії",              getVal:()=>+document.getElementById("tenure").value,                    getDesc:v=>v+" р. стажу" },
   { key:"numCompanies",    label:"Кількість місць роботи",       getVal:()=>+document.getElementById("numCompanies").value,              getDesc:v=>v+" місць роботи" },
   { key:"distance",        label:"Відстань до роботи",           getVal:()=>+document.getElementById("distance").value,                  getDesc:v=>v+" км" },
@@ -446,7 +417,7 @@ function setToggle(field,val,btn){
 }
 
 function calculate(){
-  // Зчитую всі значення з форми і рахую внесок кожного фактора: βᵢ · xᵢ
+  // Зчитую всі значення з форми і рахую внесок кожного фактора: βᵢ * xᵢ
   const vals={},contributions={};
   let z=0;
   FACTOR_META.forEach(f=>{ vals[f.key]=f.getVal(); contributions[f.key]=BETAS[f.key]*vals[f.key]; z+=contributions[f.key]; });
@@ -498,7 +469,7 @@ function calculate(){
     const row=document.createElement("div");
     row.className="factor-row";
     row.style.animationDelay=(i*0.05)+"s";
-    row.innerHTML=`<div><div class="factor-name">${f.label}</div><div class="factor-desc">${f.getDesc(f.val)} · β = ${betaStr} · x = ${f.val}</div><div class="factor-bar-row"><div class="factor-bar-fill ${barCls}" style="width:${barPct}%"></div></div></div><div class="factor-impact ${impCls}">${sign}${f.contrib.toFixed(3)}<br><span style="font-size:17px;font-weight:400">${arrow}</span></div>`;
+    row.innerHTML=`<div><div class="factor-name">${f.label}</div><div class="factor-desc">${f.getDesc(f.val)} | β = ${betaStr} | x = ${f.val}</div><div class="factor-bar-row"><div class="factor-bar-fill ${barCls}" style="width:${barPct}%"></div></div></div><div class="factor-impact ${impCls}">${sign}${f.contrib.toFixed(3)}<br><span style="font-size:21px;font-weight:400">${arrow}</span></div>`;
     list.appendChild(row);
   });
 }
